@@ -322,7 +322,7 @@ const references = [
     name: 'Abhishek Begerhotta',
     summary:
       'Abhishek has worked in Healthcare IT since 1996 when he was involved in the custom development of one of the largest and most sophisticated EHR’s in the history of the HIT industry. This project was awarded the 1999 Davies Award. He subsequently provided leadership on several Enterprise EHR projects including the largest Epic implementation to date, resulting in the formation of 314e Corporation. He has an MBA from the Wharton School of Business. He handles all escalations personally, and takes pride in always putting the customer first.',
-    position: 'CEO 314e corp | IT Products and Services',
+    position: 'CEO at 314e corp | IT Products and Services',
     url: 'https://www.linkedin.com/in/abhishekbegerhotta/'
   }
 ];
