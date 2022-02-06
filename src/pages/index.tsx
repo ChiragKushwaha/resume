@@ -163,7 +163,7 @@ const JobsJson = [
         name: 'WildDuck UI',
         url: 'https://docs.wildduck.email/#/additional-software/third-party-projects',
         about:
-          'About: It’s a mail server admin panel for managing the users. And to keep track of the daily quota usage and their active time period'
+          'It’s a mail server admin panel for managing the users. And to keep track of the daily quota usage and their active time period'
       },
       {
         name: 'Penknife',
