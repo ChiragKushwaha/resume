@@ -55,7 +55,7 @@ const Section = (props: TJobs) => {
       {technology ? (
         <div>
           <span>
-            <b>Technoloy: </b>
+            <b>Technology: </b>
           </span>
           {technology?.join(', ')}
         </div>
