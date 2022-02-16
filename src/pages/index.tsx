@@ -203,7 +203,7 @@ const InternshipsJson = [
 const Pp = [
   {
     name: 'Netflix Clone',
-    description: "It looks like Netflix. It shows movies poster, about the movie and it's trailer.",
+    summary: "It looks like Netflix. It shows movies poster, about the movie and it's trailer.",
     highlights: ['Self Made'],
     technology: ['HTML', 'CSS', 'React JS'],
     startDate: '2020-07-01',
@@ -214,7 +214,7 @@ const Pp = [
   },
   {
     name: 'Portfolio',
-    about: 'Welcomes people who visits it and contains my social media links and resume link.',
+    summary: 'Welcomes people who visits it and contains my social media links and resume link.',
     highlights: ['Self Made'],
     technology: ['HTML', 'CSS', 'React JS', 'Three Js', 'React Spring'],
     startDate: '2021-10-15',
@@ -225,7 +225,7 @@ const Pp = [
   },
   {
     name: 'Image Processing',
-    about:
+    summary:
       'It`s a webapp that use rust compiled binaries to process the image. Processing the image with Javascript puts a load on the main thread, instead rust takes care of processing the image, it uses cpu of the machine and provide the output back to the javascript thread as a stream of data. which is then displayed to the screen by javascript.',
     highlights: ['Self Made'],
     technology: ['HTML', 'CSS', 'Javascript', 'RUST', 'Webpack', 'babel'],
@@ -237,7 +237,7 @@ const Pp = [
   },
   {
     name: 'Portfolio (Old)',
-    about: 'Tells about me, supports light/dark mode.',
+    summary: 'Tells about me, supports light/dark mode.',
     highlights: ['Self Made'],
     technology: ['HTML', 'CSS', 'React JS', 'Three Js', 'React Spring'],
     startDate: '2021-07-01',
@@ -248,7 +248,7 @@ const Pp = [
   },
   {
     name: 'World Rank',
-    about: 'Tells World Rank',
+    summary: 'Tells World Rank',
     highlights: ['Self Made'],
     technology: ['HTML', 'CSS', 'React JS'],
     startDate: '2021-09-01',
@@ -259,7 +259,7 @@ const Pp = [
   },
   {
     name: 'Covid-19 Tracker',
-    about: 'Shows in graphs and visuals the current condition or the world in Covid-19.',
+    summary: 'Shows in graphs and visuals the current condition or the world in Covid-19.',
     highlights: ['Self Made'],
     technology: ['HTML', 'CSS', 'React JS'],
     startDate: '2021-11-01',
