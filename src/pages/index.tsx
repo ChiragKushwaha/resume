@@ -217,9 +217,21 @@ const Pp = [
     about: 'Welcomes people who visits it and contains my social media links and resume link.',
     highlights: ['Self Made'],
     technology: ['HTML', 'CSS', 'React JS', 'Three Js', 'React Spring'],
-    startDate: '2021-07-01',
-    endDate: '2021-07-20',
+    startDate: '2021-10-15',
+    endDate: '2021-10-20',
     url: 'https://mr-chirag.web.app/',
+    entity: 'Entity',
+    type: 'application'
+  },
+  {
+    name: 'Image Processing',
+    about:
+      'It`s a webapp that use rust compiled binaries to process the image. Processing the image with Javascript puts a load on the main thread, instead rust takes care of processing the image, it uses cpu of the machine and provide the output back to the javascript thread as a stream of data. which is then displayed to the screen by javascript.',
+    highlights: ['Self Made'],
+    technology: ['HTML', 'CSS', 'Javascript', 'RUST', 'Webpack', 'babel'],
+    startDate: '2021-09-22',
+    endDate: '2021-09-28',
+    url: 'https://rust-wasm-henna.vercel.app/',
     entity: 'Entity',
     type: 'application'
   },
