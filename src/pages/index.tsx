@@ -213,8 +213,19 @@ const Pp = [
     type: 'appliWcation'
   },
   {
+    name: 'Portfolio',
+    about: 'Welcomes people who visits it and contains my social media links and resume link.',
+    highlights: ['Self Made'],
+    technology: ['HTML', 'CSS', 'React JS', 'Three Js', 'React Spring'],
+    startDate: '2021-07-01',
+    endDate: '2021-07-20',
+    url: 'https://mr-chirag.web.app/',
+    entity: 'Entity',
+    type: 'application'
+  },
+  {
     name: 'Portfolio (Old)',
-    about: 'Tells about me',
+    about: 'Tells about me, supports light/dark mode.',
     highlights: ['Self Made'],
     technology: ['HTML', 'CSS', 'React JS', 'Three Js', 'React Spring'],
     startDate: '2021-07-01',
