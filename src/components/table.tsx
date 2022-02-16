@@ -11,7 +11,7 @@ const Table = () => {
       studyType: 'Bachelor',
       startDate: '2016-09-01',
       endDate: '2020-04-20',
-      score: '8.33',
+      score: '8.73',
       courses: ['Computer Science and Engineering']
     },
     {
