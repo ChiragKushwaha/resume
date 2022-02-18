@@ -21,18 +21,15 @@ module.exports = {
       numberOfRuns: 3
     },
     upload: {
-      upload: {
-        target: 'lhci',
-        serverBaseUrl: 'https://resume-red-sigma.vercel.app/'
-      }
+      target: 'temporary-public-storage'
     },
     server: {
-      port: 8080,
-      storage: {
-        storageMethod: 'sql',
-        sqlDialect: 'sqlite',
-        sqlDatabasePath: '/data/lhci.db'
-      }
+      port: 8080
+      // storage: {
+      //   storageMethod: 'sql',
+      //   sqlDialect: 'sqlite',
+      //   sqlDatabasePath: '/data/lhci.db'
+      // }
     }
   }
 };
