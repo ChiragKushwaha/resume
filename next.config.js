@@ -1,4 +1,143 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-}
+
+  i18n: {
+    // These are all the locales you want to support in
+    // your application
+    locales: [
+      'af',
+      'sq',
+      'am',
+      'ar',
+      'hy',
+      'az',
+      'eu',
+      'be',
+      'bn',
+      'bs',
+      'bg',
+      'ca',
+      'ceb',
+      'ny',
+      'zh-CN',
+      'zh-TW',
+      'co',
+      'hr',
+      'cs',
+      'da',
+      'nl',
+      'en',
+      'eo',
+      'et',
+      'tl',
+      'fi',
+      'fr',
+      'fy',
+      'gl',
+      'ka',
+      'de',
+      'el',
+      'gu',
+      'ht',
+      'ha',
+      'haw',
+      'iw',
+      'hi',
+      'hmn',
+      'hu',
+      'is',
+      'ig',
+      'id',
+      'ga',
+      'it',
+      'ja',
+      'jw',
+      'kn',
+      'kk',
+      'km',
+      'rw',
+      'ko',
+      'ku',
+      'ky',
+      'lo',
+      'la',
+      'lv',
+      'lt',
+      'lb',
+      'mk',
+      'mg',
+      'ms',
+      'ml',
+      'mt',
+      'mi',
+      'mr',
+      'mn',
+      'my',
+      'ne',
+      'no',
+      'or',
+      'ps',
+      'fa',
+      'pl',
+      'pt',
+      'pa',
+      'ro',
+      'ru',
+      'sm',
+      'gd',
+      'sr',
+      'st',
+      'sn',
+      'sd',
+      'si',
+      'sk',
+      'sl',
+      'so',
+      'es',
+      'su',
+      'sw',
+      'sv',
+      'tg',
+      'ta',
+      'tt',
+      'te',
+      'th',
+      'tr',
+      'tk',
+      'uk',
+      'ur',
+      'ug',
+      'uz',
+      'vi',
+      'cy',
+      'xh',
+      'yi',
+      'yo',
+      'zu'
+    ],
+    // This is the default locale you want to be used when visiting
+    // a non-locale prefixed path e.g. `/hello`
+    defaultLocale: 'en'
+    // This is a list of locale domains and the default locale they
+    // should handle (these are only required when setting up domain routing)
+    // Note: subdomains must be included in the domain value to be matched e.g. "fr.example.com".
+    // domains: [
+    //   {
+    //     domain: 'example.com',
+    //     defaultLocale: 'en-US'
+    //   },
+    //   {
+    //     domain: 'example.nl',
+    //     defaultLocale: 'nl-NL'
+    //   },
+    //   {
+    //     domain: 'example.fr',
+    //     defaultLocale: 'fr',
+    //     // an optional http field can also be used to test
+    //     // locale domains locally with http instead of https
+    //     http: true
+    //   }
+    // ]
+  }
+};
