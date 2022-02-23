@@ -24,7 +24,7 @@ app.prepare().then(() => {
             '*'
           ],
           styleSrc: ["'self'", "'unsafe-inline'", 'https://*.resume-red-sigma.vercel.app', '*'],
-          frameAncestors: ["'self'", 'translate.goog'],
+          frameAncestors: ["'self'"],
           imgSrc: ["'self'", 'data:', '*'],
           fontSrc: ["'self'", 'data:', '*'],
           frameSrc: ["'self'", '*'],
