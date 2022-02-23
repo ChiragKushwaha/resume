@@ -28,6 +28,7 @@ const JobsJson = [
       'Rollup js',
       'Monorepo',
       'Prisma',
+      'Workbox',
       'CSR(Client Side Rendering)',
       'ISR(Incremental Static Regeneration)',
       'SSG(Static Site Generation)',
@@ -35,7 +36,7 @@ const JobsJson = [
       'Service Worker',
       'Node',
       'Express',
-      'AWS',
+      'AWS (EC2, dynamoDB)',
       'Docker',
       'Mixpanel',
       'Redux',
@@ -47,9 +48,13 @@ const JobsJson = [
       'webpack',
       'Figma',
       'Animations',
-      'Git'
+      'Git',
+      'YAML'
     ],
     projects: [
+      {
+        name: "Currntly Working with Elastic Search Query, building a Doctor dicovery platform, autosuggest api's and Documenting api's with swagger."
+      },
       {
         name: 'Download your vaccine Certificate',
         url: 'https://www.eka.care/download-covid-vaccination-certificate',
@@ -156,7 +161,8 @@ const JobsJson = [
       'CSS',
       'HTML',
       'JavaScript',
-      'React Query'
+      'React Query',
+      'YAML'
     ],
     projects: [
       {
