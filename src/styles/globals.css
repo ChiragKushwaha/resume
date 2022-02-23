@@ -34,3 +34,10 @@ h3 {
   margin-top: 0;
   margin-bottom: 8px;
 }
+
+.language-selector {
+  background: white;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
