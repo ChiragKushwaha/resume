@@ -53,7 +53,7 @@ const JobsJson = [
     ],
     projects: [
       {
-        name: 'Doctor dicovery platform Android',
+        name: 'Doctor dicovery platform on Android, ',
         subtext: 'Download now Android IOS',
         links: [
           {
