@@ -53,7 +53,28 @@ const JobsJson = [
     ],
     projects: [
       {
-        name: "Currntly Working with Elastic Search Query, building a Doctor dicovery platform, autosuggest api's and Documenting api's with swagger."
+        name: 'Doctor dicovery platform Android',
+        subtext: 'Download now Android IOS',
+        links: [
+          {
+            text: 'Android',
+            url: 'https://play.google.com/store/apps/details?id=eka.care'
+          },
+          {
+            text: 'IOS',
+            url: 'https://apps.apple.com/in/app/eka-care/id1561621558'
+          }
+        ]
+      },
+      {
+        name: 'Doctor dicovery platform on Web',
+        url: 'https://www.eka.care/doctor'
+      },
+      {
+        name: 'Worked with Elastic Search Query for autosuggestion'
+      },
+      {
+        name: "Documented api's with swagger"
       },
       {
         name: 'Download your vaccine Certificate',
@@ -117,7 +138,7 @@ const JobsJson = [
       {
         name: 'Eka Care App',
         subtext:
-          "(Our app has 1.5 M+ downloads, if you haven’t started using it yet. Just try it, you'll never go back.) Android IOS",
+          "(Our app has 2 M+ downloads, if you haven’t started using it yet. Just try it, you'll never go back.) Android IOS",
         about:
           'Worked on Booking flow, for doctors, staff, patients, cowin vaccination booking and managing them.',
         links: [
