@@ -201,7 +201,7 @@ const JobsJson = [
   },
   {
     name: 'Innovacx',
-    position: 'Software Engineer Trainee',
+    position: 'Software Engineer',
     url: 'https://www.innovacx.com/index.html',
     startDate: '2020-01-05',
     endDate: '2020-06-30',
