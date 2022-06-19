@@ -240,6 +240,17 @@ const Pp = [
     type: 'appliWcation'
   },
   {
+    name: 'Shoppy Dashboard',
+    summary: "Dashboard for Shoppy, It shows the list of products, and it's details. It also show the inflation rate using graph, it also has shopping cart, one can easily manage his/her calendar, it even have a trello like task tracker, and a rich text editor.",
+    highlights: ['Self Made'],
+    technology: ['HTML', 'CSS', 'React JS'],
+    startDate: '2022-06-18',
+    endDate: '2022-06-20',
+    url: 'https://shoppy-board.web.app/',
+    entity: 'Entity',
+    type: 'appliWcation'
+  },
+  {
     name: 'Portfolio',
     summary: 'Welcomes people who visits it and contains my social media links and resume link.',
     highlights: ['Self Made'],
