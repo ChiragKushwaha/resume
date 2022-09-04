@@ -5,6 +5,9 @@ import { DATEFORMAT } from '../constants/date';
 import Header from '../components/header';
 import Section from '../components/section';
 import Table from '../components/table';
+import LanguageSelector from '../components/language-selector';
+import { getLocaleFromContext } from '../utils/get-locale-from-context';
+import { GetServerSidePropsContext } from 'next';
 // "@types/three": "^0.136.1",
 
 const JobsJson = [
@@ -391,6 +394,7 @@ const references = [
 const Resume = () => {
   return (
     <div style={{ padding: '20px' }}>
+      <LanguageSelector className="language-selector" />
       <Head>
         <title>Chirag Kushwaha</title>
         {/* <script dangerouslySetInnerHTML={{ __html: props.seoData }}></script> */}
@@ -475,6 +479,17 @@ const Resume = () => {
 };
 
 export default Resume;
+
+export async function getServerSideProps(context: GetServerSidePropsContext) {
+  const { locale } = getLocaleFromContext({ context });
+
+  return {
+    props: {
+      locale
+    }
+  };
+}
+
 // export async function getStaticProps(context: any) {
 //   const result = getResumeJson();
 //   return {
