@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <script type="application/ld+json">
           {`
-                    [
+       [
          {
             "@context":"https://schema.org",
             "@type":"ProfessionalService",
@@ -45,13 +45,17 @@ function MyApp({ Component, pageProps }: AppProps) {
                "closes":"23:59"
             },
             "sameAs":[
-               "https://www.facebook.com/chirag.kushwaha.1044/",
-               "https://twitter.com/ChiragKushwaha_",
-               "https://www.instagram.com/chiragkushwaha_/",
                "https://www.linkedin.com/in/chirag-kushwaha/",
+               "https://github.com/ChiragKushwaha",
+               "https://twitter.com/ChiragKushwaha_",
+   "https://stackoverflow.com/users/10364623/chirag-kushwaha",
+   "https://www.codechef.com/users/chiragkushwaha",
+   "https://www.hackerrank.com/Chirag_Kushwaha",
+   "https://codeforces.com/profile/chiragkushwaha",
+               "https://www.instagram.com/chiragkushwaha_/",
+               "https://www.facebook.com/chirag.kushwaha.1044/",
                "https://resume-red-sigma.vercel.app/",
-               "https://mr-chirag.web.app/",
-               "https://github.com/ChiragKushwaha"
+               "https://mr-chirag.web.app/"
             ]
          },
          {
