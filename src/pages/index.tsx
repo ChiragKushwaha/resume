@@ -29,6 +29,8 @@ const JobsJson = [
       'Monorepo',
       'Prisma',
       'Workbox',
+      'React Query',
+      'Zustand',
       'CSR(Client Side Rendering)',
       'ISR(Incremental Static Regeneration)',
       'SSG(Static Site Generation)',
@@ -52,6 +54,34 @@ const JobsJson = [
       'YAML'
     ],
     projects: [
+      {
+        name: 'Create your Google my business profile, to boost your digital presence, ',
+        subtext: 'Download now Android IOS',
+        links: [
+          {
+            text: 'Android',
+            url: 'https://play.google.com/store/apps/details?id=eka.care'
+          },
+          {
+            text: 'IOS',
+            url: 'https://apps.apple.com/in/app/eka-care/id1561621558'
+          }
+        ]
+      },
+      {
+        name: 'Doctor self onboarding, ',
+        subtext: 'Download now Android IOS',
+        links: [
+          {
+            text: 'Android',
+            url: 'https://play.google.com/store/apps/details?id=eka.care'
+          },
+          {
+            text: 'IOS',
+            url: 'https://apps.apple.com/in/app/eka-care/id1561621558'
+          }
+        ]
+      },
       {
         name: 'Doctor dicovery platform on Android, ',
         subtext: 'Download now Android IOS',
@@ -241,7 +271,8 @@ const Pp = [
   },
   {
     name: 'Shoppy Dashboard',
-    summary: "Dashboard for Shoppy, It shows the list of products, and it's details. It also show the inflation rate using graph, it also has shopping cart, one can easily manage his/her calendar, it even have a trello like task tracker, and a rich text editor.",
+    summary:
+      "Dashboard for Shoppy, It shows the list of products, and it's details. It also show the inflation rate using graph, it also has shopping cart, one can easily manage his/her calendar, it even have a trello like task tracker, and a rich text editor.",
     highlights: ['Self Made'],
     technology: ['HTML', 'CSS', 'React JS'],
     startDate: '2022-06-18',
