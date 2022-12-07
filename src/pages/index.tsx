@@ -69,7 +69,7 @@ const JobsJson = [
         ]
       },
       {
-        name: 'Doctor self onboarding, ',
+        name: 'Doctor self onboarding flow, ',
         subtext: 'Download now Android IOS',
         links: [
           {
