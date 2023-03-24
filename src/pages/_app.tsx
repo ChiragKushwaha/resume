@@ -158,6 +158,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="google-site-verification"
           content="OIk6sJu3nmgUIb9c-yV6DvU_P4KyXctrKxF8ZukWjQE"
         />
+        <meta
+          name="google-site-verification"
+          content="oHO0cc6Yh8pcEON5Fz0FVR2WKIr30Kb8HxPJYr0XLys"
+        />
       </Head>
       <Component {...pageProps} />;
     </>
