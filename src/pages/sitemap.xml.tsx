@@ -10,6 +10,10 @@ export const getServerSideProps = ({ res }: GetServerSidePropsContext) => {
       <loc>https://resume-red-sigma.vercel.app/</loc>
       <lastmod>2022-01-23</lastmod>
     </url>
+    <url>
+      <loc>https://chirag-kushwaha.vercel.app/</loc>
+      <lastmod>2023-03-25</lastmod>
+    </url>
   </urlset>
   `;
 
