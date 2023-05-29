@@ -276,6 +276,18 @@ const InternshipsJson = [
 
 const Pp = [
   {
+    name: 'Push Notification System',
+    summary:
+      "It's a push notification system for the website, which sends notification to the user.",
+    highlights: ['Self Made'],
+    technology: ['HTML', 'CSS', 'Node JS', 'Express JS', 'Prisma', 'MySQL'],
+    startDate: '2023-05-15',
+    endDate: '2023-05-21',
+    url: 'https://github.com/ChiragKushwaha/push-notification-system',
+    entity: 'Entity',
+    type: 'application'
+  },
+  {
     name: 'Netflix Clone',
     summary: "It looks like Netflix. It shows movies poster, about the movie and it's trailer.",
     highlights: ['Self Made'],
@@ -284,7 +296,7 @@ const Pp = [
     endDate: '2020-07-20',
     url: 'https://netflixi.web.app/',
     entity: 'Entity',
-    type: 'appliWcation'
+    type: 'application'
   },
   {
     name: 'Shoppy Dashboard',
@@ -296,7 +308,7 @@ const Pp = [
     endDate: '2022-06-20',
     url: 'https://shoppy-board.web.app/',
     entity: 'Entity',
-    type: 'appliWcation'
+    type: 'application'
   },
   {
     name: 'Portfolio',
@@ -407,7 +419,14 @@ const languages = [
 const interests = [
   {
     name: 'Hobbies',
-    keywords: ['Sketching', 'Learning new things', 'Solving Coding Problems', 'Playing Guitar']
+    keywords: [
+      'Sketching',
+      'Learning new things',
+      'Solving Coding Problems',
+      'Playing Guitar',
+      'Skating',
+      'Playing Chess'
+    ]
   }
 ];
 const references = [
