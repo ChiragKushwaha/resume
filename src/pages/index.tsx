@@ -1,32 +1,35 @@
-import React from 'react';
 import dateformat from 'dateformat';
 import Head from 'next/head';
-import { DATEFORMAT } from '../constants/date';
 import Header from '../components/header';
 import Section from '../components/section';
 import Table from '../components/table';
+import { DATEFORMAT } from '../constants/date';
 // "@types/three": "^0.136.1",
 
 const JobsJson = [
   {
     name: 'Orbi Health PVT Ltd',
-    position: 'Software Engineer',
+    position: 'Full Stack Software Engineer',
     url: 'https://www.eka.care',
     startDate: '2021-07-01',
     endDate: '',
     summary:
       'I was sent here from my previous company 314e Healthcare to help them build their product but after some time i became a permanent employee in this company.',
     technology: [
+      'React Native',
+      'MySQL',
+      'Next JS',
+      'Turborepo',
       'Keystone JS',
       'SEO Schemas',
       'PWA(Progressive Web App)',
-      'React Native',
       'GraphQl',
-      'MySql',
-      'Next JS',
+      "Goole Business Api's",
+      "Google Maps Api's",
       'React JS',
       'Rollup js',
       'Monorepo',
+      'Python',
       'Prisma',
       'Workbox',
       'React Query',
@@ -54,6 +57,20 @@ const JobsJson = [
       'YAML'
     ],
     projects: [
+      {
+        name: 'Creating a Brownfield Project at Eka Care, Integrating Exsisting Android/IOS App with React Native.',
+        subtext: 'Download now Android IOS',
+        links: [
+          {
+            text: 'Android',
+            url: 'https://play.google.com/store/apps/details?id=eka.care.doctor'
+          },
+          {
+            text: 'IOS',
+            url: 'https://apps.apple.com/in/app/emr-ehr-for-doctors-eka-doc/id1598859349'
+          }
+        ]
+      },
       {
         name: 'Create your Google my business profile, to boost your digital presence, ',
         subtext: 'Download now Android IOS',
