@@ -4,9 +4,6 @@ const Header = () => {
   return (
     <div style={{ textAlign: 'center' }}>
       <h1>CHIRAG KUSHWAHA</h1>
-      <div>
-        <em>2/351, Rajni Khand, Sharda Nagar Yojana, Lucknow, U.P.-226002.</em>
-      </div>
       <a href="tel:+916387935021">+916387935021</a>
       <br />
       <a href="mailto:chiragkushwaha1811@gmail.com">chiragkushwaha1811@gmail.com</a>
